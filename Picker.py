@@ -1,4 +1,4 @@
-
+import os
 
 print("""
 
@@ -36,19 +36,24 @@ def isAnyArrayItemInString(string, array):
 
 
 
+def cleaner():
+  # cleans the terminal
+  os.system('cls' if os.name=='nt' else 'clear')
 
 if isAnyArrayItemInString(userinput, one):
-    print("hello")
-    print(userinput)
+    cleaner()
     # exec(open('Implementation_one.py').read())
     import Implementation_one
 if isAnyArrayItemInString(userinput, two):
+    cleaner()
     print("hello2")
     import Implementation_two
     # exec(open('Implementation_two.py').read())
 if isAnyArrayItemInString(userinput, three):
+    cleaner()
     import Implementation_three
     # exec(open('Implementation_three.py').read())
 if isAnyArrayItemInString(userinput, four):
+    cleaner()
     import Implementation_four
     # exec(open('Implementation_four.py').read())
