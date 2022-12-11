@@ -24,7 +24,7 @@ Which implementation would you like to pick?
 """)
 
 one = ["one", "first", "1"]
-two = ["two", "second" "2"]
+two = ["two", "second", "2"]
 three = ["three", "third", "3"]
 four = ["four", "fourth", "4"]
 
