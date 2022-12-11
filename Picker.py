@@ -45,7 +45,6 @@ if isAnyArrayItemInString(userinput, one):
     import Implementation_one
 if isAnyArrayItemInString(userinput, two):
     cleaner()
-    print("hello2")
     import Implementation_two
     # exec(open('Implementation_two.py').read())
 if isAnyArrayItemInString(userinput, three):
